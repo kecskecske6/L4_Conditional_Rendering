@@ -7,6 +7,9 @@ const app = Vue.createApp({
       // solution
       onSale: true,
       // solution
+      // Solution 2
+      price: 100,
+      // Solution 2
     };
   },
 });

@@ -27,6 +27,10 @@
           <!-- solution -->
           <p v-if="onSale">On Sale!</p>
           <!-- solution -->
+          <!-- Solution 2 -->
+          <p v-if="onSale">${{ price * 0.85 }}</p>
+          <p v-else>${{ price }}</p>
+          <!-- Solution 2 -->
         </div>
       </div>
     </div>
